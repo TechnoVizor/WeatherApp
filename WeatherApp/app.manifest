@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+		<security>
+			<requestedPrivileges>
+				<requestedExecutionLevel level="asInvoker" uiAccess="false" />
+			</requestedPrivileges>
+		</security>
+	</trustInfo>
+	<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+		<application>
+			<!-- The ID below indicates application support for Windows Vista and above -->
+			<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />
+			<supportedOS Id="{1f6767e6-0af3-42a8-bd79-44f8ae3d0b20}" />
+			<supportedOS Id="{4e42d1d3-20a2-4e6d-8c24-60ab5e5944f0}" />
+			<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+		</application>
+	</compatibility>
+	<application xmlns="urn:schemas-microsoft-com:asm.v3">
+		<windowsSettings>
+			<dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true/pm</dpiAware>
+		</windowsSettings>
+	</application>
+</assembly>
