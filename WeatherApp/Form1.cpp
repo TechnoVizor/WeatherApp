@@ -2,10 +2,14 @@
 #include "Form1.h"
 #include <windows.h>
 #include <winhttp.h>
+#include "apikey.h"
 #include <string>
+#include <iostream>
+#include <fstream>
 #include "nlohmann/json.hpp"
 #include <msclr/marshal_cppstd.h>
 #include <cmath>
+#include <codecvt>
 #include <iomanip>
 #include <locale>
 #include <ctime>
@@ -29,20 +33,28 @@ std::string PerformHttpRequest(const std::wstring& url);
 std::wstring ConvertToDayOfWeek(const std::string& dateTime);
 
 
+
+
+
     
 
 System::Void Form1::getWeatherButton_Click(System::Object^ sender, System::EventArgs^ e)
 {
 
 
+    
     std::wstring city = msclr::interop::marshal_as<std::wstring>(this->cityTextBox->Text);
-    std::wstring apiKey = L"dcfbb830861457513bf48fe9c2592ced";
+
+    std::string apiKeyStr = API_KEY;
+    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
+    std::wstring apiKey = converter.from_bytes(apiKeyStr);
+    
 
     //
     // URL get request 
     //
 
-    std::wstring geoCodingUrl = L"/geo/1.0/direct?q=" + city + L"&limit=1&appid=" + std::wstring(apiKey.begin(), apiKey.end());
+    std::wstring geoCodingUrl = L"/geo/1.0/direct?q=" + city + L"&limit=1&appid=" + apiKey;
     std::string geoCodingResponse = PerformHttpRequest(geoCodingUrl);
 
   
