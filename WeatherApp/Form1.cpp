@@ -42,7 +42,7 @@ System::Void Form1::getWeatherButton_Click(System::Object^ sender, System::Event
     // URL get request 
     //
 
-    std::wstring geoCodingUrl = L"/geo/1.0/direct?q=" + city + L"&limit=1&appid=" + apiKey;
+    std::wstring geoCodingUrl = L"/geo/1.0/direct?q=" + city + L"&limit=1&appid=" + std::wstring(apiKey.begin(), apiKey.end());
     std::string geoCodingResponse = PerformHttpRequest(geoCodingUrl);
 
   
