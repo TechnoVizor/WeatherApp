@@ -203,10 +203,11 @@ namespace WeatherApp {
             // weatherPictureBox
             // 
             this->weatherPictureBox->BackColor = System::Drawing::Color::Transparent;
-            this->weatherPictureBox->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
+            this->weatherPictureBox->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
             this->weatherPictureBox->Location = System::Drawing::Point(751, 230);
             this->weatherPictureBox->Name = L"weatherPictureBox";
             this->weatherPictureBox->Size = System::Drawing::Size(212, 190);
+            this->weatherPictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
             this->weatherPictureBox->TabIndex = 10;
             this->weatherPictureBox->TabStop = false;
             // 
@@ -401,20 +402,22 @@ namespace WeatherApp {
             // day1PictureBox
             // 
             this->day1PictureBox->BackColor = System::Drawing::Color::Transparent;
+            this->day1PictureBox->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
             this->day1PictureBox->Location = System::Drawing::Point(123, 723);
             this->day1PictureBox->Name = L"day1PictureBox";
             this->day1PictureBox->Size = System::Drawing::Size(122, 100);
-            this->day1PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::CenterImage;
+            this->day1PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
             this->day1PictureBox->TabIndex = 22;
             this->day1PictureBox->TabStop = false;
             // 
             // day2PictureBox
             // 
             this->day2PictureBox->BackColor = System::Drawing::Color::Transparent;
+            this->day2PictureBox->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
             this->day2PictureBox->Location = System::Drawing::Point(389, 723);
             this->day2PictureBox->Name = L"day2PictureBox";
             this->day2PictureBox->Size = System::Drawing::Size(122, 100);
-            this->day2PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::CenterImage;
+            this->day2PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
             this->day2PictureBox->TabIndex = 24;
             this->day2PictureBox->TabStop = false;
             // 
@@ -434,10 +437,11 @@ namespace WeatherApp {
             // day3PictureBox
             // 
             this->day3PictureBox->BackColor = System::Drawing::Color::Transparent;
+            this->day3PictureBox->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
             this->day3PictureBox->Location = System::Drawing::Point(662, 723);
             this->day3PictureBox->Name = L"day3PictureBox";
             this->day3PictureBox->Size = System::Drawing::Size(122, 100);
-            this->day3PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::CenterImage;
+            this->day3PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
             this->day3PictureBox->TabIndex = 26;
             this->day3PictureBox->TabStop = false;
             // 
@@ -457,10 +461,11 @@ namespace WeatherApp {
             // day4PictureBox
             // 
             this->day4PictureBox->BackColor = System::Drawing::Color::Transparent;
+            this->day4PictureBox->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
             this->day4PictureBox->Location = System::Drawing::Point(926, 723);
             this->day4PictureBox->Name = L"day4PictureBox";
             this->day4PictureBox->Size = System::Drawing::Size(122, 100);
-            this->day4PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::CenterImage;
+            this->day4PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
             this->day4PictureBox->TabIndex = 28;
             this->day4PictureBox->TabStop = false;
             // 
@@ -480,10 +485,11 @@ namespace WeatherApp {
             // day5PictureBox
             // 
             this->day5PictureBox->BackColor = System::Drawing::Color::Transparent;
+            this->day5PictureBox->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
             this->day5PictureBox->Location = System::Drawing::Point(1186, 723);
             this->day5PictureBox->Name = L"day5PictureBox";
             this->day5PictureBox->Size = System::Drawing::Size(122, 100);
-            this->day5PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::CenterImage;
+            this->day5PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
             this->day5PictureBox->TabIndex = 30;
             this->day5PictureBox->TabStop = false;
             // 
