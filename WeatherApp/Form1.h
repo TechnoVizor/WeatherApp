@@ -393,7 +393,7 @@ namespace WeatherApp {
             this->day1Label->Font = (gcnew System::Drawing::Font(L"Segoe UI", 16));
             this->day1Label->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(230)), static_cast<System::Int32>(static_cast<System::Byte>(230)),
                 static_cast<System::Int32>(static_cast<System::Byte>(230)));
-            this->day1Label->Location = System::Drawing::Point(115, 642);
+            this->day1Label->Location = System::Drawing::Point(97, 642);
             this->day1Label->Name = L"day1Label";
             this->day1Label->Size = System::Drawing::Size(0, 45);
             this->day1Label->TabIndex = 21;
@@ -452,7 +452,7 @@ namespace WeatherApp {
             this->day3Label->Font = (gcnew System::Drawing::Font(L"Segoe UI", 16));
             this->day3Label->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(230)), static_cast<System::Int32>(static_cast<System::Byte>(230)),
                 static_cast<System::Int32>(static_cast<System::Byte>(230)));
-            this->day3Label->Location = System::Drawing::Point(625, 642);
+            this->day3Label->Location = System::Drawing::Point(662, 642);
             this->day3Label->Name = L"day3Label";
             this->day3Label->Size = System::Drawing::Size(0, 45);
             this->day3Label->TabIndex = 25;
