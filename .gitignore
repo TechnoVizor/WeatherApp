@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 
-WeatherApp/appikey.h
+
 # User-specific files
 *.rsuser
 *.suo
@@ -70,6 +70,9 @@ ScaffoldingReadMe.txt
 
 # StyleCop
 StyleCopReport.xml
+
+#apikey
+appikey.h
 
 # Files built by Visual Studio
 *_i.c
